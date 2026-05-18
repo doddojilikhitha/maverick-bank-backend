@@ -1,0 +1,6 @@
+@MaverickBank.Core_HostAddress = http://localhost:5122
+
+GET {{MaverickBank.Core_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
