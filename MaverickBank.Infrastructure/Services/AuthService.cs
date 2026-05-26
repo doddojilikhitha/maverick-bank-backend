@@ -24,8 +24,18 @@ namespace MaverickBank.Infrastructure.Services
 
         public async Task<bool> RegisterAsync(RegisterDTO dto)
         {
+            // Check duplicate email
             var exists = await _db.Users.AnyAsync(u => u.Email == dto.Email);
             if (exists) return false;
+
+            // ── AGE CHECK ─────────────────────
+            if (dto.DOB.HasValue)
+            {
+                int age = (int)((DateTime.Today - dto.DOB.Value).TotalDays / 365.25);
+                if (age < 18)
+                    return false; // under 18 not allowed
+            }
+            
 
             _db.Users.Add(new User
             {

@@ -1,0 +1,1 @@
+tRgC:\Users\likhi\source\repos\MaverickBank\MaverickBank.Infrastructure\MaverickBank.Infrastructure.csprojòCSharp12

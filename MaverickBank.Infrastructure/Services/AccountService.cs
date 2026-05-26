@@ -68,6 +68,14 @@ namespace MaverickBank.Infrastructure.Services
             var user = await _db.Users.FindAsync(dto.UserId);
             if (user == null) return false;
 
+            // ── ADD AGE CHECK ──────────────────────────
+            if (user.DOB.HasValue)
+            {
+                int age = (int)((DateTime.Today - user.DOB.Value).TotalDays / 365.25);
+                if (age < 18) return false; // under 18 cannot open account
+            }
+            
+
             _db.Accounts.Add(new Account
             {
                 AccountNumber = GenerateAccountNumber(),

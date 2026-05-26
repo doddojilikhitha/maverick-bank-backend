@@ -24,15 +24,26 @@ namespace MaverickBank.API.Controllers
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
-            _logger.LogInformation("Register attempt for email: {Email}", dto.Email);
-            var result = await _auth.RegisterAsync(dto);
-            if (!result)
+            // Age check before calling service
+            if (dto.DOB.HasValue)
             {
-                _logger.LogWarning("Registration failed - email already exists: {Email}", dto.Email);
-                return BadRequest(ApiResponseDTO<string>.Fail("Email already registered."));
+                int age = (int)((DateTime.Today - dto.DOB.Value).TotalDays / 365.25);
+                if (age < 18)
+                {
+                    _logger.LogWarning("Registration rejected - underage: {Email}", dto.Email);
+                    return BadRequest(ApiResponseDTO<string>.Fail(
+                        "You must be at least 18 years old to register."));
+                }
             }
 
-            _logger.LogInformation("Registration successful for: {Email}", dto.Email);
+            if (dto.Role != "Customer")
+                return BadRequest(ApiResponseDTO<string>.Fail(
+                    "Only Customer accounts can self-register."));
+
+            var result = await _auth.RegisterAsync(dto);
+            if (!result)
+                return BadRequest(ApiResponseDTO<string>.Fail("Email already registered."));
+
             return Ok(ApiResponseDTO<string>.Ok("Registered successfully. Please login."));
         }
 

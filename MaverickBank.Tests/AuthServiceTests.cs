@@ -110,5 +110,38 @@ namespace MaverickBank.Tests
             Assert.That(user.PasswordHash, Is.Not.EqualTo("Pass@1234"));
             Assert.That(BCrypt.Net.BCrypt.Verify("Pass@1234", user.PasswordHash), Is.True);
         }
+        [Test]
+        public async Task Register_ShouldFail_WhenAgeBelow18()
+        {
+            using var db = GetDb("Auth_Register_Underage");
+            var service = new AuthService(db, GetConfig());
+
+            var result = await service.RegisterAsync(new RegisterDTO
+            {
+                FullName = "Young User",
+                Email = "young@test.com",
+                Password = "Pass@1234",
+                DOB = DateTime.Today.AddYears(-16) // 16 years old
+            });
+
+            Assert.That(result, Is.False);
+        }
+
+        [Test]
+        public async Task Register_ShouldSucceed_WhenAge18OrAbove()
+        {
+            using var db = GetDb("Auth_Register_ValidAge");
+            var service = new AuthService(db, GetConfig());
+
+            var result = await service.RegisterAsync(new RegisterDTO
+            {
+                FullName = "Adult User",
+                Email = "adult@test.com",
+                Password = "Pass@1234",
+                DOB = DateTime.Today.AddYears(-20) // 20 years old
+            });
+
+            Assert.That(result, Is.True);
+        }
     }
 }

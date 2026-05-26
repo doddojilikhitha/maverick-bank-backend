@@ -1,0 +1,1 @@
+^RQC:\Users\likhi\source\repos\MaverickBank\MaverickBank.API\MaverickBank.API.csprojòCSharp12

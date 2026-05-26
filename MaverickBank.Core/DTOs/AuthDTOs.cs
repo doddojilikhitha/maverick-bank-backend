@@ -1,12 +1,18 @@
-﻿namespace MaverickBank.Core.DTOs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace MaverickBank.Core.DTOs
 {
     public class RegisterDTO
     {
-        
+        [Required]
         public string FullName { get; set; } = string.Empty;
-        
+
+        [Required]
+        [EmailAddress]
         public string Email { get; set; } = string.Empty;
-    
+
+        [Required]
+        [MinLength(8)]
         public string Password { get; set; } = string.Empty;
 
         public string? Phone { get; set; }
@@ -14,7 +20,9 @@
         public string? Address { get; set; }
         public string? AadharNo { get; set; }
         public string? PANNo { get; set; }
+
         public DateTime? DOB { get; set; }
+
         public string Role { get; set; } = "Customer";
     }
 

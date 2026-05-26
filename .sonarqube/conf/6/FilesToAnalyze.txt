@@ -1,0 +1,13 @@
+﻿C:\Users\likhi\source\repos\MaverickBank\MaverickBank.Tests\AccountServiceTests.cs
+C:\Users\likhi\source\repos\MaverickBank\MaverickBank.Tests\AuthServiceTests.cs
+C:\Users\likhi\source\repos\MaverickBank\MaverickBank.Tests\LoanServiceTests.cs
+C:\Users\likhi\source\repos\MaverickBank\MaverickBank.Tests\TransactionServiceTests.cs
+C:\Users\likhi\.nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs
+C:\Users\likhi\.nuget\packages\microsoft.testplatform.testhost\17.8.0\build\netcoreapp3.1\x64\testhost.exe
+C:\Users\likhi\.nuget\packages\microsoft.testplatform.testhost\17.8.0\build\netcoreapp3.1\x64\testhost.dll
+C:\Users\likhi\.nuget\packages\nunit3testadapter\4.5.0\build\netcoreapp3.1\NUnit3.TestAdapter.dll
+C:\Users\likhi\.nuget\packages\nunit3testadapter\4.5.0\build\netcoreapp3.1\NUnit3.TestAdapter.pdb
+C:\Users\likhi\.nuget\packages\nunit3testadapter\4.5.0\build\netcoreapp3.1\nunit.engine.dll
+C:\Users\likhi\.nuget\packages\nunit3testadapter\4.5.0\build\netcoreapp3.1\nunit.engine.api.dll
+C:\Users\likhi\.nuget\packages\nunit3testadapter\4.5.0\build\netcoreapp3.1\nunit.engine.core.dll
+C:\Users\likhi\.nuget\packages\nunit3testadapter\4.5.0\build\netcoreapp3.1\testcentric.engine.metadata.dll

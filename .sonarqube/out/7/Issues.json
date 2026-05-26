@@ -1,0 +1,286 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "5.3.0.0",
+        "fileVersion": "5.3.0-2.26153.122 (4d3023de605a78ba3e59e50c657eed70f125c68a)",
+        "semanticVersion": "5.3.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'RegisterDTOValidator' to match pascal case naming rules, consider using 'RegisterDtoValidator'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.API/Validators/RegisterDTOValidator.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'LoanApplyDTOValidator' to match pascal case naming rules, consider using 'LoanApplyDtoValidator'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.API/Validators/LoanApplyDTOValidator.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'DepositWithdrawDTOValidator' to match pascal case naming rules, consider using 'DepositWithdrawDtoValidator'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.API/Validators/DepositWithdrawDTOValidator.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'LoginDTOValidator' to match pascal case naming rules, consider using 'LoginDtoValidator'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.API/Validators/LoginDTOValidator.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'OpenAccountDTOValidator' to match pascal case naming rules, consider using 'OpenAccountDtoValidator'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.API/Validators/OpenAccountDTOValidator.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'TransferDTOValidator' to match pascal case naming rules, consider using 'TransferDtoValidator'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.API/Validators/TransferDTOValidator.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6960",
+          "level": "warning",
+          "message": "This controller has multiple responsibilities and could be split into 2 smaller controllers.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.API/Controllers/AdminController.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 18,
+                  "endLine": 15,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.API/Controllers/AdminController.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 42,
+                  "endLine": 38,
+                  "endColumn": 53
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.API/Controllers/AdminController.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 42,
+                  "endLine": 60,
+                  "endColumn": 50
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.API/Controllers/AdminController.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 42,
+                  "endLine": 49,
+                  "endColumn": 52
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.API/Controllers/AdminController.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 42,
+                  "endLine": 29,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "May belong to responsibility #1.",
+              "1": "May belong to responsibility #2.",
+              "2": "May belong to responsibility #2.",
+              "3": "May belong to responsibility #2."
+            }
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await RunAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.API/Program.cs",
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 1,
+                  "endLine": 147,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6960": {
+          "id": "S6960",
+          "shortDescription": "Controllers should not have mixed responsibilities",
+          "fullDescription": "ASP.NET controllers should not have mixed responsibilities. Following the Single Responsibility Principle (SRP), they should be kept lean and focused on a single, separate concern. In short, they should have a single reason to change.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6966": {
+          "id": "S6966",
+          "shortDescription": "Awaitable method should be used",
+          "fullDescription": "In an async method, any blocking operations should be avoided.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

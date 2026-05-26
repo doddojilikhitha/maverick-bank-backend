@@ -1,0 +1,350 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "5.3.0.0",
+        "fileVersion": "5.3.0-2.26153.122 (4d3023de605a78ba3e59e50c657eed70f125c68a)",
+        "semanticVersion": "5.3.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AccountResponseDTO' to match pascal case naming rules, consider using 'AccountResponseDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/AccountDTOs.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 18,
+                  "endLine": 14,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'OpenAccountDTO' to match pascal case naming rules, consider using 'OpenAccountDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/AccountDTOs.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'BeneficiaryDTO' to match pascal case naming rules, consider using 'BeneficiaryDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/AccountDTOs.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 18,
+                  "endLine": 27,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ApiResponseDTO' to match pascal case naming rules, consider using 'ApiResponseDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/ApiResponseDTO.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'LoginDTO' to match pascal case naming rules, consider using 'LoginDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/AuthDTOs.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 18,
+                  "endLine": 21,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'RegisterDTO' to match pascal case naming rules, consider using 'RegisterDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/AuthDTOs.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'LoanApplyDTO' to match pascal case naming rules, consider using 'LoanApplyDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/LoanDTOs.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ErrorResponseDTO' to match pascal case naming rules, consider using 'ErrorResponseDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/ErrorResponseDTO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'DepositWithdrawDTO' to match pascal case naming rules, consider using 'DepositWithdrawDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/TransactionDTOs.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AuthResponseDTO' to match pascal case naming rules, consider using 'AuthResponseDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/AuthDTOs.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 18,
+                  "endLine": 30,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'TransferDTO' to match pascal case naming rules, consider using 'TransferDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/TransactionDTOs.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 18,
+                  "endLine": 13,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'TransactionResponseDTO' to match pascal case naming rules, consider using 'TransactionResponseDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/TransactionDTOs.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 18,
+                  "endLine": 27,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'LoanResponseDTO' to match pascal case naming rules, consider using 'LoanResponseDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/LoanDTOs.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 18,
+                  "endLine": 16,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'TransactionSummaryDTO' to match pascal case naming rules, consider using 'TransactionSummaryDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/TransactionDTOs.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 18,
+                  "endLine": 38,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'LoanProductResponseDTO' to match pascal case naming rules, consider using 'LoanProductResponseDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/likhi/source/repos/MaverickBank/MaverickBank.Core/DTOs/LoanDTOs.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 18,
+                  "endLine": 30,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

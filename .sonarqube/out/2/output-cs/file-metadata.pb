@@ -1,0 +1,9 @@
+z
+oC:\Users\likhi\source\repos\MaverickBank\MaverickBank.Tests\obj\Debug\net8.0\MaverickBank.Tests.AssemblyInfo.csutf-8|
+qC:\Users\likhi\source\repos\MaverickBank\MaverickBank.Tests\obj\Debug\net8.0\MaverickBank.Tests.GlobalUsings.g.csutf-8†
+{C:\Users\likhi\source\repos\MaverickBank\MaverickBank.Tests\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8}
+rC:\Users\likhi\.nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.csutf-8_
+VC:\Users\likhi\source\repos\MaverickBank\MaverickBank.Tests\TransactionServiceTests.csutf-8X
+OC:\Users\likhi\source\repos\MaverickBank\MaverickBank.Tests\LoanServiceTests.csutf-8X
+OC:\Users\likhi\source\repos\MaverickBank\MaverickBank.Tests\AuthServiceTests.csutf-8[
+RC:\Users\likhi\source\repos\MaverickBank\MaverickBank.Tests\AccountServiceTests.csutf-8

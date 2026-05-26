@@ -1,0 +1,6 @@
+projectKey=MaverickBank
+serverUrl=http://localhost:9000
+serverVersion=26.5.0.122743
+dashboardUrl=http://localhost:9000/dashboard?id=MaverickBank
+ceTaskId=a0bfa3d6-874a-4868-91a8-2e09c1a52658
+ceTaskUrl=http://localhost:9000/api/ce/task?id=a0bfa3d6-874a-4868-91a8-2e09c1a52658
